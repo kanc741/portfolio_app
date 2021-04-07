@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio app</title>
   </head>
+  <!--  -->
   <body>
+    <div class="modal">
+      <button onclick="closeModal()">close</button>
+    </div>
     <section class="hero">
       <header>
         <div class="logo"><a href="#">John Freelancer</a></div>
@@ -34,8 +38,11 @@
       </h1>
       <div class="btn_container">
         <button class="btn_default btn_white">learn more</button>
-        <button class="btn_default btn_orange">contact me</button>
+        <button class="btn_default btn_orange" id="btnContact">
+          contact me
+        </button>
       </div>
     </section>
+    <script src="./js/script.js"></script>
   </body>
 </html>
